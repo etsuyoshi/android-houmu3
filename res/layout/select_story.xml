@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/draw_background_grad_black" >
+	
+    <TextView
+        android:id="@+id/s_st_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="30dp"
+        android:text="@string/s_st_title" />
+	<TextView
+	    android:id="@+id/present_story_title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+   	    android:layout_marginTop="50dp"
+   	    android:layout_marginLeft="20dp"
+	    android:textSize="20dp"
+	    android:text="@string/present_story_title"/>
+	
+    <!-- 一列目 -->
+    <Button 
+        android:id="@+id/s_st_bt_Q1"
+        android:layout_height="39dp"
+        android:layout_width="300dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="onClick"
+        android:background="@drawable/button_web_red"
+        style="@style/ButtonText"
+        android:text="第1章"
+        />
+    <Button 
+        android:id="@+id/s_st_bt_Q2"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="onClick"
+        android:background="@drawable/button_web_purple"
+        style="@style/ButtonText"
+        android:text="第2章"
+        />
+    <Button
+        android:id="@+id/s_st_bt_Q3"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="onClick"
+        android:background="@drawable/button_web_blue"
+        style="@style/ButtonText"
+        android:text="第3章"
+        />
+    <Button
+        android:id="@+id/s_st_bt_Q4"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="onClick"
+        android:background="@drawable/button_web_green"
+        style="@style/ButtonText"
+        android:text="第4章"
+		/>
+    <Button
+        android:id="@+id/s_st_bt_Q5"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="onClick"
+        android:background="@drawable/button_web_yellow"
+        style="@style/ButtonText"
+        android:text="第5章"
+        />
+    
+    <Button
+        android:id="@+id/s_st_bt_Q6"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="onClick"
+        android:background="@drawable/button_web_black"
+        style="@style/ButtonText"
+        android:text="力だめし！"
+        />
+    <Button 
+        android:id="@+id/s_s_bt_return"
+        android:background="@drawable/draw_button_grad"
+        android:textColor="#ffffff"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/present_story_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:onClick="onClick"
+        android:text="@string/st_return"
+        />
+    
+</RelativeLayout>
